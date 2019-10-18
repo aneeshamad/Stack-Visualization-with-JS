@@ -1,0 +1,141 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Stack {
+  background-color: #DB44A9;
+  width: 100%;
+  height: 80px;
+  font-size: 25px;
+  color: #FFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+  background-color: #0C2643;
+}
+
+.root h3 {
+  font-size: 35px;
+  color: #ffff;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.oparations {
+  position: absolute;
+  top: 300px;
+  left: 900px;
+  width: 25%;
+  min-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.new-stack, .push, .pop, .peek, .size, .is-empty, .swap {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FFFF00;
+  color: #DB44A9;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  font-size: 20px;
+  border: none;
+}
+
+.stackBox {
+  position: relative;
+  margin-top: 120px;
+  margin-left: 100px;
+  width: 20%;
+  height: 500px;
+  display: block;
+  border: 3px solid #FFFF;
+  border-top: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.stack-item {
+  position: initial;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+  width: 90%;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 0;
+  -webkit-animation: push 2s forwards;
+          animation: push 2s forwards;
+}
+
+@-webkit-keyframes push {
+  from {
+    opacity: 0;
+    left: 0;
+    top: 0;
+  }
+  to {
+    opacity: 1;
+    left: 400px;
+    top: 0;
+  }
+}
+
+@keyframes push {
+  from {
+    opacity: 0;
+    left: 0;
+    top: 0;
+  }
+  to {
+    opacity: 1;
+    left: 400px;
+    top: 0;
+  }
+}
+/*# sourceMappingURL=interface.css.map */
