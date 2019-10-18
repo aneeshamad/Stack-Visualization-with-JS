@@ -65,6 +65,7 @@ html,body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: auto;
   }
    .stack-item {
       position: initial;
@@ -77,12 +78,15 @@ html,body {
       align-items: center;
       bottom: 0;
       animation: push 2s forwards;
+      font-family: 'Segoe UI';
+      font-size: 30px;
    }
 
    
    
    @keyframes push {
       from { opacity: 0; left: 0; top: 0 ;}
-      to { opacity: 1; left: 400px; top: 0 ; }
+      to { opacity: 1; left: 40px; top: 0 ; }
   }
+  
   
